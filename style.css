@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+body{
+    font-family: Lato;
+    margin: 0;
+}
+.text-primary{
+    color: #E55473;
+}
+.btn-primary{
+    background-color: #E55473;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+header{
+    position: relative;
+}
+.hero-section{
+    display: flex;
+    padding: 0 130px;
+    position: relative;
+    height: 850px;
+    background: transparent;
+}
+.hero-section .side-contents{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 35px;
+}
+.hero-section .side-contents h1{
+    font-weight: 900;
+    font-size: 50px;
+    color: #272727;
+    margin: 0;
+}
+.side-contents button{
+    padding: 10px 20px;
+    width: fit-content;
+    font-weight: 500;
+    font-size: 18px;
+}
+.side-contents p{
+    color: #272727;
+    opacity: 0.6;
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+}
+header .background{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-color: #E55473;
+    opacity: 0.1;
+}
+.hero-section .hero-image{
+    width: 600px;
+    height: 770px;
+    align-self: flex-end;
+}
+
+/*Main*/
+main section{
+    height: 850px;
+    background-color: #fff;
+}
