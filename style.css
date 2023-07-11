@@ -19,6 +19,9 @@ body{
     border: none;
     border-radius: 5px;
 }
+.btn-primary:hover{
+    background-color: #b1435b;
+}
 header{
     position: relative;
 }
@@ -72,6 +75,7 @@ main section{
     flex-direction: column;
     height: 850px;
     padding: 130px;
+    padding-bottom: 0;
 }
 main section h3{
     font-size: 40px;
@@ -138,6 +142,31 @@ main section .image-slider > .image{
     color: #272727;
     text-underline-offset: 5px;
     font-weight: 600;
+}
+/*service section*/
+.service-section{
+    padding: 130px;
+    padding-top: 0;
+    height: fit-content;
+}
+.service-section .wrapper{
+    width: 100%;
+    background-color: rgba(39, 39, 39, 0.1);
+    display: flex;
+    padding: 70px; 
+    justify-content: space-around;
+}
+.wrapper .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper .box img{
+    width: 80px;
+}
+.wrapper .box span{
+    font-size: 20px;
+    margin-top: 10px;
 }
 /*sales section*/
 .sale{
@@ -274,8 +303,10 @@ footer p.paragraph-text{
     font-size: 18px;
     opacity: 1;
     margin: 0;
+    margin-top: 15px;
 }
 footer p{
+    margin-top: 35px;
     opacity: 40%;
     color: #fff;
     font-size: 18px;
