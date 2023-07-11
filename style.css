@@ -229,9 +229,6 @@ main section .image-slider > .image{
     width: 100%;
     justify-content: space-between;
 }
-.img-gallery .img-box{
-
-}
 .img-box img{
     width: 290px;
 }
